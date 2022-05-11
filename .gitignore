@@ -59,8 +59,7 @@ typings/
 *.tgz
 
 # dotenv environment variable files
-.env.development
-.env.production
+
 
 # gatsby files
 .cache/
