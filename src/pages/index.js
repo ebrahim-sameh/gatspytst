@@ -36,7 +36,7 @@ const IndexPage = ({ data }) => {
             </button>
               <br />
             <button onClick={()=>{navigate("/products")}} className="btn-ui mt-4 min-w-full lg:min-w-0">
-              Check our products
+              Whatsapp us now!
             </button>
           </div>
         </div>
