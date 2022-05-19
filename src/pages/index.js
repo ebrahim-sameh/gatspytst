@@ -24,14 +24,14 @@ const IndexPage = ({ data }) => {
             className="w-full lg:w-1/2 h-auto"
           />
           <div>
-            <h1 className="text-4xl">CLAIM YOUR MERCH</h1>
+            <h1 className="text-4xl">This is Ebrahim's Store</h1>
             <p className="mt-2 text-lg font-normal">
-              Contribute to Medusa and receive free merch
+              place your first order right now and get 15% off
               <br />
-              as a token of our appreciation
+              order now!
             </p>
-            <button className="btn-ui mt-4 min-w-full lg:min-w-0">
-              Learn more
+            <button onclick="location.href='https://papaya-begonia-3496c2.netlify.app/products'" className="btn-ui mt-4 min-w-full lg:min-w-0">
+              Check our products
             </button>
           </div>
         </div>
