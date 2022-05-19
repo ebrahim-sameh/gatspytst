@@ -1,4 +1,5 @@
 import { graphql } from "gatsby"
+import { navigate } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import CollectionPreview from "../components/categories/collection-preview"
@@ -30,7 +31,7 @@ const IndexPage = ({ data }) => {
               <br />
               order now!
             </p>
-            <button onclick="location.href='https://papaya-begonia-3496c2.netlify.app/products'" className="btn-ui mt-4 min-w-full lg:min-w-0">
+            <button onClick={()=>{navigate("/products")}} className="btn-ui mt-4 min-w-full lg:min-w-0">
               Check our products
             </button>
           </div>
