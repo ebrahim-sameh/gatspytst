@@ -25,9 +25,9 @@ const IndexPage = ({ data }) => {
             className="w-full lg:w-1/2 h-auto"
           />
           <div>
-            <h1 className="text-4xl">This is Ebrahim's Store</h1>
+            <h1 className="text-4xl">Welcome to Shubz Studios</h1>
             <p className="mt-2 text-lg font-normal">
-              place your first order right now and get 15% off
+              place your order now!
               <br />
               order now!
             </p>
